@@ -1,15 +1,39 @@
 /*
+=============================================
+Custom styles
+=============================================
+*/
+body{
+  background: #ffffff;
+  color: #000000;
+  font: 300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
 ===================================
 Primary header
 ===================================
 */
 .header {
-  background: #293f50;
+  background: #B22209;
 }
 
-.header h1,
-  a {
-  color: #648880;
+.header h1 {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 400;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-left: 24px;
+}
+.header a {
+  float: right;
+  color: #ffffff;
+  font-weight: 400;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-right: 24px;
 }
 
 /*
