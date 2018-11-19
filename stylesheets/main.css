@@ -79,9 +79,15 @@ Primary footer
 */
 
 .footer {
-  background: #293f50;
+  background: #3B3B40;
 }
 
 .footer p {
-  color: #648880;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
