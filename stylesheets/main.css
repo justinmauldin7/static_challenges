@@ -71,9 +71,43 @@ Primary header
   ========================================
 */
 
-.body img {
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.col-3-4 {
+  width: 80%;
+  margin-top: 14px;
+}
+.col-1-4 {
+  width: 20%;
+  vertical-align: top;
+  margin-top: 14px;
+}
+.col-1-4,
+.col-3-4 {
+  display: inline-block;
+}
+.body p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 34px;
+  margin-right: 44px;
+  line-height: 13px;
+}
+.body h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 34px;
   margin-bottom: 22px;
-  max-width: 20%;
+}
+.body img {
+  margin-left: 24px;
+  margin-bottom: 12px;
+  max-width: 90%;
 }
 
 /*
@@ -85,7 +119,7 @@ Primary header
 .teasers img {
   margin-top: 7px;
   margin-bottom: 40px;
-  max-width: 20%;
+  max-width: 90%;
 }
 
 /*
@@ -96,13 +130,9 @@ Primary footer
 
 .footer {
   background: #3B3B40;
-}
-.footer p {
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 20px;
+  margin-top: 20px;
 }
